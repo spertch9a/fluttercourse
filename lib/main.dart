@@ -15,15 +15,8 @@ class Home extends StatelessWidget {
       ),
       // ignore: prefer_const_constructors
       body: Center(
-        child: Text(
-          'Weeee Khoutii! ',
-          style: TextStyle(
-            fontSize: 50.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey,
-            fontFamily: 'IndieFlower',
-          ),
+        child: Image(
+          image: AssetImage('assets/space1.jpg'),
         ),
       ),
       floatingActionButton: FloatingActionButton(
